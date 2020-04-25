@@ -8,5 +8,7 @@ $ composer install/update
 
 ### Running
 ```sh
+$ php bin/console doctrine:migrations:migrate
+$ php bin/console doctrine:fixtures:load --append
 $ symfony server:start
 ```
